@@ -1,0 +1,14 @@
+Flask
+Flask-Cors
+google-auth
+google-auth-oauthlib
+google-cloud
+google-cloud-aiplatform
+langchain
+requests
+langchain_google_vertexai
+pdfplumber
+python-dotenv
+sentence-transformers
+scikit-learn
+torch

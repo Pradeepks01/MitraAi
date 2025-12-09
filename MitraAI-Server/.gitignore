@@ -1,0 +1,8 @@
+# 🛑 Sensitive files
+.env
+# 📦 Python virtual environment
+venv/
+
+
+
+
