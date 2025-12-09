@@ -17,7 +17,7 @@ import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Loader2, ArrowLeft } from "lucide-react";
 import Link from "next/link";
-// import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"; // Assuming you have Alert, if not will use simple div for now or text
+// import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"; // Fixed import error
 
 const ForgotPassword = () => {
     const [email, setEmail] = useState("");
