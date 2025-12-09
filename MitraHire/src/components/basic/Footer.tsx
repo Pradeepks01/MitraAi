@@ -29,7 +29,7 @@ const Footer = () => {
                     >
                         Contact
                     </Link>
-                    <Link
+                    {/* <Link
                         href="/privacy"
                         className="text-foreground hover:text-primary transition duration-200"
                     >
@@ -40,7 +40,7 @@ const Footer = () => {
                         className="text-foreground hover:text-primary transition duration-200"
                     >
                         Terms of Service
-                    </Link>
+                    </Link> */}
                 </div>
 
                 <div className="flex items-center gap-4 mt-6 md:mt-0">
