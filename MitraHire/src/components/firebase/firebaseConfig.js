@@ -4,12 +4,12 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBQJyTvILxge7C9zwLv7jKGGJh0n1yoCu8",
-  authDomain: "mitraai-42c5a.firebaseapp.com",
-  projectId: "mitraai-42c5a",
-  storageBucket: "mitraai-42c5a.firebasestorage.app",
-  messagingSenderId: "345717350669",
-  appId: "1:345717350669:web:6f470c113179e833965044"
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY || "AIzaSyBQJyTvILxge7C9zwLv7jKGGJh0n1yoCu8",
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN || "mitraai-42c5a.firebaseapp.com",
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID || "mitraai-42c5a",
+  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET || "mitraai-42c5a.firebasestorage.app",
+  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID || "345717350669",
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID || "1:345717350669:web:6f470c113179e833965044"
 };
 
 
