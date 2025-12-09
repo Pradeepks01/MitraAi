@@ -38,6 +38,8 @@ def initialize_logger(app):
     # Attach the logger to the Flask app
     app.logger = logger
 
+# Create app instance at module level for gunicorn
+app = create_app()
+
 if __name__ == "__main__":
-    app = create_app()
     app.run(debug=True)
