@@ -6,7 +6,7 @@ from utils.vertexAIclient import start_vertex
 
 def create_app():
     app = Flask(__name__)
-    CORS(app, resources={r"/api/*": {"origins": "*"}})
+    CORS(app, resources={r"/api/*": {"origins": "*", "allow_headers": "*", "methods": ["GET", "POST", "OPTIONS"]}}, supports_credentials=True)
 
     # Initialize Vertex AI client before routes are initialized
     start_vertex(app)
